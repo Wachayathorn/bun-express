@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "start": "bun run index.ts",
-    "dev": "bun run index.ts --watch"
+    "dev": "bun run index.ts --watch",
+    "test": "cross-env NODE_ENV=test jest --testTimeout=5000",
+    "test:cov" : "bun test --coverage"
   },
   "devDependencies": {
     "@types/bun": "latest",
