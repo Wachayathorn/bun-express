@@ -176,3 +176,6 @@ dist
 
 # NodeJS
 .node_modules
+
+# ENV
+.env
